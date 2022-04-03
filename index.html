@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/pizza.png">
+    <title>PIZZA GANG</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="effect"></div>
+        <div class="modal">
+            <div class="modal__inner">
+                <div class="modal__block">
+                    <h3 class="modal__title">Вход на <span class="active">сайт</span></h3>
+                    <p class="modal__subtitle">Подарим подарок на день рождения, сохраним адрес доставки и расскажем об
+                        акциях</p>
+                    <p class="modal__text">Номер телефона</p>
+                    <input class="modal__input" type="text" placeholder="+7">
+                </div>
+                <a class="modal__link" href="#">Выслать код</a>
+            </div>
+        </div>
+
+        <div class="modal-pizza">
+            <div class="modal-pizza__inner">
+                <div class="modal-pizza__choose">
+                    <img class="modal-pizza__img" src="images/pizzaOne.jpeg" alt="">
+                    <div class="modal-pizza__plus">
+                        <h3 class="modal-pizza__title">Пицца <span class="active">Собери сам</span></h3>
+                        <div class="modal-pizza__wrapper">
+                            <p class="modal-pizza__item">Сырный бортик</p>
+                            <p class="modal-pizza__item">Чуддер и пармезан</p>
+                            <p class="modal-pizza__item">Ветчина</p>
+                            <p class="modal-pizza__item">Цыпленок</p>
+                            <p class="modal-pizza__item">Шампеньены</p>
+                            <p class="modal-pizza__item">Соленые огурчики</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="modal-pizza__btn" href="#">Добавить в корзину</a>
+        </div>
+
+        <div class="modal-menu">
+            <div class="modal-menu__close">
+                <span class="modal-menu__span"></span>
+                <span class="modal-menu__span"></span>
+                <span class="modal-menu__span"></span>
+            </div>
+            <div class="modal-menu__inner">
+                <a class="modal-menu__link" href="main.html">О нас</a>
+                <a class="modal-menu__link active" href="index.html">Меню</a>
+                <a class="modal-menu__link" href="review.html">Отзывы</a>
+                <a class="modal-menu__link" href="contact.html">Контакты</a>
+            </div>
+        </div>
+
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header__effect"></div>
+            <div class="container">
+                <div class="header__inner">
+
+                    <div class="header__hamburger">
+                        <div class="header__span"></div>
+                    </div>
+
+                    <nav class="header__nav">
+                        <ul class="header__menu">
+                            <li class="header__list"><a class="header__item" href="main.html">О нас</a></li>
+                            <li class="header__list"><a class="header__item active" href="index.html">Меню</a></li>
+                            <li class="header__list"><a class="header__item" href="review.html">Отзывы</a></li>
+                            <li class="header__list"><a class="header__item" href="contact.html">Контакты</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="header__sign-in">
+                        <button class="header__btn">Войти</button>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        <!-- //HEADER -->
+
+
+        <!-- MENU -->
+        <section class="menu" id="menu">
+            <div class="container">
+                <div class="menu__inner">
+
+                    <div class="menu__logo">
+                        <a class="menu__link" href="index.html">
+                            <img class="menu__img" src="images/pizza.png" alt="pizza__logo.png">
+                            <h2 class="menu__title">PIZZA GANG</h2>
+                        </a>
+                    </div>
+
+                    <nav class="menu__nav">
+                        <ul class="menu__menu">
+                            <li class="menu__list"><a class="menu__item" href="#pizza">Пицца</a></li>
+                            <li class="menu__list"><a class="menu__item" href="#combo">Комбо</a></li>
+                            <li class="menu__list"><a class="menu__item" href="#drinks">Напитки</a></li>
+                            <li class="menu__list"><a class="menu__item" href="#desert">Десерт</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="menu__cart">
+                        <a class="menu__btn" href="cart.html">
+                            <img class="menu__img-cart" src="images/cart.png" alt="cart.png">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- //MENU -->
+
+
+        <!-- PRODUCT -->
+        <section class="product" id="product">
+            <div class="container">
+                <div class="product__inner">
+                    <!-- PIZZA -->
+                    <h2 class="product__title-main">Пицца</h2>
+                    <div class="product__wrapper" id="pizza">
+                        <div class="product__block">
+                            <img class="product__img" src="images/pizzaOne.jpeg" alt="">
+                            <h3 class="product__title">Пицца <span class="product__span">Собери сам</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 5800 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/pizzaTwo.jpeg" alt="">
+                            <h3 class="product__title">Пицца <span class="product__span">Овощная</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 7000 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/pizzaThree.jpeg" alt="">
+                            <h3 class="product__title">Пицца <span class="product__span">Фиксики</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 6300 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/pizzaFour.jpeg" alt="">
+                            <h3 class="product__title">Пицца <span class="product__span">Фиксики дабл</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 5100 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/pizzaFive.jpeg" alt="">
+                            <h3 class="product__title">Пицца <span class="product__span">С луком</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 7300 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/pizzaSix.jpeg" alt="">
+                            <h3 class="product__title">Пицца <span class="product__span">Грибная</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 4100 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/pizzaSeven.jpeg" alt="">
+                            <h3 class="product__title">Пицца <span class="product__span">Пеперони</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 5100 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/pizzaEight.jpeg" alt="">
+                            <h3 class="product__title">Пицца <span class="product__span">Мацарелла</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 4900 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/pizzaNine.jpeg" alt="">
+                            <h3 class="product__title">Пицца <span class="product__span">Салями</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 6400 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/pizzaTen.jpeg" alt="">
+                            <h3 class="product__title">Пицца <span class="product__span">Ананасовая</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 8900 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/pizzaEleven.jpeg" alt="">
+                            <h3 class="product__title">Пицца <span class="product__span">С анчоусами</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 5000 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/pizzaTwelve.jpeg" alt="">
+                            <h3 class="product__title">Пицца <span class="product__span">Бомба</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 10000 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //PIZZA -->
+                    <!-- COMBO -->
+                    <h2 class="product__title-main">Комбо</h2>
+                    <div class="product__wrapper" id="combo">
+                        <div class="product__block">
+                            <img class="product__img" src="images/comboOne.webp" alt="">
+                            <h3 class="product__title">Комбо <span class="product__span">Наурыз #1</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 5800 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/comboTwo.webp" alt="">
+                            <h3 class="product__title">Комбо <span class="product__span">Наурыз #2</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 7000 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/comboThree.webp" alt="">
+                            <h3 class="product__title">Комбо <span class="product__span">Наурыз #3</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 6300 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/comboFour.webp" alt="">
+                            <h3 class="product__title">Комбо <span class="product__span">Наурыз #4</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 5100 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/comboFive.webp" alt="">
+                            <h3 class="product__title">Комбо <span class="product__span">Пиццы #1</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 7300 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/comboSix.webp" alt="">
+                            <h3 class="product__title">Комбо <span class="product__span">Дотстер</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 4100 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/comboSeven.webp" alt="">
+                            <h3 class="product__title">Комбо <span class="product__span">Пицца #2</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 5100 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/comboEight.webp" alt="">
+                            <h3 class="product__title">Комбо <span class="product__span">Пицца #3</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 4900 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/comboNine.webp" alt="">
+                            <h3 class="product__title">Комбо <span class="product__span">Пицца #4</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 6400 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/ComboTen.webp" alt="">
+                            <h3 class="product__title">Комбо <span class="product__span">Пицца #5</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 8900 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/comboEkeven.webp" alt="">
+                            <h3 class="product__title">Комбо <span class="product__span">Пицца #6</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 10000 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/comboTwelve.webp" alt="">
+                            <h3 class="product__title">Комбо <span class="product__span">Пицца #7</span></h3>
+                            <p class="product__text">Собери свою пиццу 35 см с двумя разными вкусами</p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 20000 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //COMBO -->
+                    <!-- DRINKS -->
+                    <h2 class="product__title-main">Напитки</h2>
+                    <div class="product__wrapper" id="drinks">
+                        <div class="product__block">
+                            <img class="product__img" src="images/one.jpeg" alt="">
+                            <h3 class="product__title"><span class="product__span">Pepsi</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper">
+                                <p class="product__price">от 200 тг.</p>
+                                <p class="product__btn">Собрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/two.jpeg" alt="">
+                            <h3 class="product__title"><span class="product__span">Pepsi lime</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 200 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/three.jpeg" alt="">
+                            <h3 class="product__title"><span class="product__span">7Up</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 200 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/four.jpeg" alt="">
+                            <h3 class="product__title"><span class="product__span">Mirinda</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 200 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/five.jpeg" alt="">
+                            <h3 class="product__title"><span class="product__span">Lipton</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 150 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/six.jpeg" alt="">
+                            <h3 class="product__title"><span class="product__span">Lipton lime</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 150 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/seven.jpeg" alt="">
+                            <h3 class="product__title"><span class="product__span">Juice</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 150 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/eight.jpeg" alt="">
+                            <h3 class="product__title"><span class="product__span">Dada orange</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 300 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/three.jpeg" alt="">
+                            <h3 class="product__title"><span class="product__span">7Up</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 400 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+
+                        <div class="product__block">
+                            <img class="product__img" src="images/six.jpeg" alt="">
+                            <h3 class="product__title"><span class="product__span">Lipton classic</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 200 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+
+                        <div class="product__block">
+                            <img class="product__img" src="images/one.jpeg" alt="">
+                            <h3 class="product__title"><span class="product__span">Pepsi classic</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 250 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+
+                        <div class="product__block">
+                            <img class="product__img" src="images/seven.jpeg" alt="">
+                            <h3 class="product__title"><span class="product__span">Juice</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 500 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //DRINKS -->
+                    <!-- DESERT -->
+                    <h2 class="product__title-main">Десерт</h2>
+                    <div class="product__wrapper" id="desert">
+                        <div class="product__block">
+                            <img class="product__img" src="images/oneD.jpeg" alt="">
+                            <h3 class="product__title">GANG<span class="product__span"> коктель</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 700 тг.</p>
+                                <p class="product__btn">Собрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/twoD.jpeg" alt="">
+                            <h3 class="product__title">Чизкейк<span class="product__span"> ванильный</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 1500 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/threeD.jpeg" alt="">
+                            <h3 class="product__title">Пончик<span class="product__span"> Дабл</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 1500 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/fourD.jpeg" alt="">
+                            <h3 class="product__title">Мафин<span class="product__span"> Дабл</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 700 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/fiveD.jpeg" alt="">
+                            <h3 class="product__title">Печенье<span class="product__span"> Американо</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 500 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/sixD.jpeg" alt="">
+                            <h3 class="product__title">Кекс<span class="product__span"> Темная жижа</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 2000 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/sevenD.jpeg" alt="">
+                            <h3 class="product__title">Печенье<span class="product__span"> Домовой</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 2000 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/eightD.jpeg" alt="">
+                            <h3 class="product__title">Сырник<span class="product__span"> Трипл</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 1100 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                        <div class="product__block">
+                            <img class="product__img" src="images/twoD.jpeg" alt="">
+                            <h3 class="product__title">Чизкейк<span class="product__span"> с ликером</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 4000 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+
+                        <div class="product__block">
+                            <img class="product__img" src="images/fiveD.jpeg" alt="">
+                            <h3 class="product__title">Печенье<span class="product__span"> Овсянное</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 1300 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+
+                        <div class="product__block">
+                            <img class="product__img" src="images/sixD.jpeg" alt="">
+                            <h3 class="product__title">Кекс<span class="product__span"> Укроп</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 900 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+
+                        <div class="product__block">
+                            <img class="product__img" src="images/threeD.jpeg" alt="">
+                            <h3 class="product__title">Пончик<span class="product__span"> Не дабл</span></h3>
+                            <p class="product__text"></p>
+                            <div class="product__wrapper-main">
+                                <p class="product__price">от 500 тг.</p>
+                                <p class="product__btn">Выбрать</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //DESERT -->
+                </div>
+            </div>
+        </section>
+        <!-- //PRODUCT -->
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__wrapper">
+                        <div class="footer__wrapper-block">
+                            <div class="footer__block">
+                                <h4 class="footer__title">PIZZA GANG</h4>
+                                <a class="footer__link" href="main.html">О нас</a>
+                                <a class="footer__link active" href="index.html">Меню</a>
+                                <a class="footer__link" href="review.html">Отзывы</a>
+                                <a class="footer__link" href="contact.html">Контакты</a>
+                            </div>
+                            <div class="footer__block">
+                                <h4 class="footer__title">Работа</h4>
+                                <a class="footer__link" href="#">В пиццерии</a>
+                                <a class="footer__link" href="#">В контакт-центре</a>
+                            </div>
+                            <div class="footer__block">
+                                <h4 class="footer__title">Партнерам</h4>
+                                <a class="footer__link" href="#">Франшиза</a>
+                                <a class="footer__link" href="#">Инвестиции</a>
+                                <a class="footer__link" href="#">Поставщикам</a>
+                                <a class="footer__link" href="#">Предложить помещение</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="footer__text">© ВСЕ ПРОВА ЗАЩИЩЕНЫ ВЫ НИЧЕГО НЕ ДОКАЖИТЕ</p>
+                </div>
+            </div>
+            <div class="footer__map">
+                <iframe class="footer__map-coor"
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3Acfa47a57e104e398906b5a18e91b80042a001302a808ae8fd76008e143e49546&amp;source=constructor"
+                    width="600" height="300" frameborder="0"></iframe>
+            </div>
+        </footer>
+        <!-- //FOOTER -->
+    </div>
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
